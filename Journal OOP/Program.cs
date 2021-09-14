@@ -40,6 +40,7 @@ namespace Journal_OOP
                 }
                 else if (searchInput == 2)
                 {
+
                     patiens = manager.ReturnPatient();
                     Console.WriteLine("Patient name:");
                     for (int i = 0; i < patiens.Count; i++)
